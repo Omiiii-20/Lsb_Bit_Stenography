@@ -1,4 +1,4 @@
-# LSB Image Steganography
+  # LSB Image Steganography
 
 ## Author
 
@@ -56,7 +56,9 @@ Documentation:
 
 ## ⚙️ How to Compile
 
+```bash
 gcc src/*.c -o stego
+```
 
 ---
 
@@ -64,11 +66,15 @@ gcc src/*.c -o stego
 
 ### Encode
 
+```bash
 ./stego -e test_images/input.bmp test_images/secret.txt output.bmp
+```
 
 ### Decode
 
+```bash
 ./stego -d output.bmp decoded.txt
+```
 
 ---
 
@@ -81,9 +87,19 @@ gcc src/*.c -o stego
 
 ---
 
-## 📸 Output
+## 📸 Output Screenshots
 
-(Screenshot will be added soon)
+### Encoding Process
+
+![Encoding](screenshots/Encoding.png)
+
+### Decoding Process
+
+![Decoding](screenshots/Decoding.png)
+
+### Hidden Secret Text
+
+![Secret](screenshots/Secret_text.png)
 
 ---
 
